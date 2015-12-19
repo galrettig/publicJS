@@ -1,7 +1,7 @@
 /**
  * Created by gal on 12/19/2015.
  */
-module.exports = {
+var Random = {
 
     randomBetween : function(min, max){
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -16,3 +16,4 @@ module.exports = {
         return {arr: arrayToSelectFrom, item:removedItem};
     }
 };
+module.exports = Random;

@@ -7,7 +7,6 @@
  */
 
 
+var Strings = require("./Strings");
 
-
-module.exports = {
-};
+console.log(Strings.mixWords(["hi", "you", "whats", "up"]));
