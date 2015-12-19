@@ -1,0 +1,19 @@
+{
+  "name": "public-js",
+  "version": "1.0.0",
+  "description": "public javascript functions of any sort",
+  "main": "publicjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galrettig/publicJS.git"
+  },
+  "author": "community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galrettig/publicJS/issues"
+  },
+  "homepage": "https://github.com/galrettig/publicJS#readme"
+}
