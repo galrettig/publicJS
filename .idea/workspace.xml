@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0baca343-72f2-4e65-a120-92e9ac5cbb6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/FileSystemMethods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Random.js" afterPath="$PROJECT_DIR$/dist/Random.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/Strings.js" afterPath="$PROJECT_DIR$/dist/Strings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0baca343-72f2-4e65-a120-92e9ac5cbb6e" name="Default" comment="" />
     <ignored path="publicJS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +60,8 @@
       <file leaf-file-name="FileSystemMethods.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/FileSystemMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85450345">
-              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.19976905">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -388,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/FileSystemMethods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85450345">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.19976905">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
