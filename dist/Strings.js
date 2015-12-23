@@ -5,7 +5,11 @@
 var randoms = require('./Random.js');
 var Strings = {
 
-    // generates random String in a random length from a given array of words
+    /**
+     * @description generates random String in a random length from a given array of words
+     * @param arrayOfWords
+     * @returns {string}
+     */
     mixWords : function(arrayOfWords){
         var stringLength = randoms.randomBetween(1, arrayOfWords.length);
         var strToBuild = "";
