@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0baca343-72f2-4e65-a120-92e9ac5cbb6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/FileSystemMethods.js" afterPath="$PROJECT_DIR$/dist/FileSystemMethods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/publicJS.iml" afterPath="$PROJECT_DIR$/.idea/publicJS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="publicJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="FileSystemMethods.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/FileSystemMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09699769">
-              <caret line="6" column="195" selection-start-line="6" selection-start-column="195" selection-end-line="6" selection-end-column="195" />
+            <state vertical-scroll-proportion="1.1639723">
+              <caret line="50" column="83" selection-start-line="50" selection-start-column="83" selection-end-line="50" selection-end-column="83" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -387,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/FileSystemMethods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09699769">
-          <caret line="6" column="195" selection-start-line="6" selection-start-column="195" selection-end-line="6" selection-end-column="195" />
+        <state vertical-scroll-proportion="1.1639723">
+          <caret line="50" column="83" selection-start-line="50" selection-start-column="83" selection-end-line="50" selection-end-column="83" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>

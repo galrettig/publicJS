@@ -7,8 +7,8 @@ var FileSystemMethods = {
      * @description inserting all the given files in a given path (Directory) into the given Array, if optinal is to filter the results with allowed file extensions and folders to ignore(by name)
      * @param path
      * @param finalFiles
-     * @param optional allowedExtension
-     * @param optional ignoreFolders
+     * @param optional allowedExtension Array of strings formatted as ".EXTENSION" example ".jpg"
+     * @param optional ignoreFolders Array of Folder Names to ignore
      * @returns the final array
      */
     insertAllFilesFromPathToArray: function (path, finalFiles, allowedExtension, ignoreFolders)
@@ -24,6 +24,7 @@ var FileSystemMethods = {
             if(extensions.length === 0){
                 return true;
             }
+
             var indexOfExtStart = fileName.indexOf(".");
             if (indexOfExtStart > -1)
             {
@@ -47,7 +48,7 @@ var FileSystemMethods = {
 
                 if (ignoreFolders.indexOf(findings[i]) === -1)
                 {
-                    var recArray = this.insertAllFilesFromPathToArray(currentPath,finalFiles, allowedExtension, ignoreFolders);
+                    var recArray = this.insertAllFilesFromPathToArray(currentPath, finalFiles, allowedExtension, ignoreFolders);
                     if (recArray.length > 0)
                     {
                         finalFiles.concat(recArray);
