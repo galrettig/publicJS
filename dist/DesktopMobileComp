@@ -1,0 +1,74 @@
+ /*!
+ * This file will contain good methods for working in a desktop-mobile compatible environment
+ *brought as a contribution to Gal Rettig's publicJS library
+ *Feel free to add some yourself
+ * Shoham Vigiser 
+ */
+ 
+
+ var isDesktop = (function(){
+  try { 
+   document.createEvent("TouchEvent");
+  }
+  catch(e){
+   return true;
+  }
+  return false;
+ })();
+ 
+ 
+ if( isDesktop ){ 
+ //put here stricly desktop functions
+ //these are two JQuery based functions made for easily implentation to a single object or a class the ability to follow screen while scrolling
+ (function($) {
+    makeObjectFollowScrollById("yourid",20);
+    makeObjectFollowScrollByClass("yourclassname",20);
+})(jQuery);
+ 
+ }
+ 
+  
+    // two paramaters: first is object name by class or id
+    // second is the space between element and top of screen (when scrolling)
+function makeObjectFollowScrollById(String id, int DtopMargin){
+var element = $('#'+id),
+        originalY = element.offset().top;
+
+
+    var topMargin = DtopMargin;
+
+    // Should probably be set in CSS; but here just for emphasis
+    element.css('position', 'relative');
+
+    $(window).on('scroll', function(event) {
+        var scrollTop = $(window).scrollTop();
+
+        element.stop(false, false).animate({
+            top: scrollTop < originalY
+                    ? 0
+                    : scrollTop - originalY + topMargin
+        }, 300);
+    });
+}
+
+
+function (String class, int DtopMargin){
+var element = $('.'+class),
+        originalY = element.offset().top;
+
+
+    var topMargin = DtopMargin;
+
+    // Should probably be set in CSS; but here just for emphasis
+    element.css('position', 'relative');
+
+    $(window).on('scroll', function(event) {
+        var scrollTop = $(window).scrollTop();
+
+        element.stop(false, false).animate({
+            top: scrollTop < originalY
+                    ? 0
+                    : scrollTop - originalY + topMargin
+        }, 300);
+    });
+}
