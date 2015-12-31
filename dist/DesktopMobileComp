@@ -30,7 +30,7 @@
   
     // two paramaters: first is object name by class or id
     // second is the space between element and top of screen (when scrolling)
-function makeObjectFollowScrollById(String id, int DtopMargin){
+function makeObjectFollowScrollById(id,DtopMargin){
 var element = $('#'+id),
         originalY = element.offset().top;
 
@@ -52,7 +52,7 @@ var element = $('#'+id),
 }
 
 
-function (String class, int DtopMargin){
+function (class,DtopMargin){
 var element = $('.'+class),
         originalY = element.offset().top;
 
